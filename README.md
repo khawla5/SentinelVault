@@ -50,6 +50,28 @@ in a single codebase.
 
 ---
 
+## Screenshots
+
+<p align="center">
+  <img src="docs/screenshots/login.png" alt="Login / create vault screen" width="80%">
+  <br><em>Zero-knowledge login — the master password never leaves memory</em>
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/vault.png" alt="Vault dashboard" width="80%">
+  <br><em>Vault dashboard with encrypted entries, password generator, and live strength analysis</em>
+</p>
+
+<!-- Add these two once captured:
+<p align="center">
+  <img src="docs/screenshots/settings.png" alt="Settings panel" width="45%">
+  <img src="docs/screenshots/arabic-rtl.png" alt="Arabic RTL interface" width="45%">
+  <br><em>Settings with live theming · full Arabic (RTL) localization</em>
+</p>
+-->
+
+---
+
 ## Architecture
 
 ```
