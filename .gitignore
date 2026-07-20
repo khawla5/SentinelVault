@@ -1,1 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
 
+# Local secrets / config
+.env
+config.local.py
+
+# Databases & vault artifacts  (NEVER commit real secrets)
+*.db
+*.sqlite3
+*.sec
+database/*.db
+instance/
+
+# Logs
+logs/*.log
+logs/*.jsonl
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/

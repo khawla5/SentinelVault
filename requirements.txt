@@ -1,0 +1,30 @@
+# --- Core backend ---
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+sqlalchemy==2.0.30
+pydantic==2.7.1
+pydantic-settings==2.3.0
+python-multipart==0.0.9
+
+# --- Cryptography ---
+cryptography==42.0.7          # AES-256-GCM, constant-time compare
+argon2-cffi==23.1.0           # Argon2id master-password hashing
+pyjwt==2.8.0                  # JWT session tokens
+
+# --- Data-leak checking ---
+httpx==0.27.0                 # Have I Been Pwned k-anonymity requests
+
+# --- Malware scanner ---
+psutil==5.9.8                 # cross-platform process / resource inspection
+watchdog==4.0.1               # file-integrity monitoring (filesystem events)
+
+# --- Optional: Postgres / Supabase backend ---
+# Only needed if you set DATABASE_URL to a Postgres/Supabase connection string.
+# Install with:  pip install "psycopg[binary]"
+# psycopg[binary]==3.2.1
+
+# --- Windows-only (installed automatically on Windows) ---
+pywin32==306; sys_platform == "win32"   # Win32 APIs for injection detection
+
+# --- Testing ---
+pytest==8.2.1

@@ -8,6 +8,7 @@ cffi==2.1.0
 click==8.4.2
 cryptography==49.0.0
 ecdsa==0.19.2
+email-validator==2.3.0
 fastapi==0.139.2
 h11==0.16.0
 idna==3.18
@@ -18,6 +19,7 @@ pydantic==2.13.4
 pydantic-settings==2.14.2
 pydantic_core==2.46.4
 python-dotenv==1.2.2
+psycopg2-binary==2.9.11
 python-jose==3.5.0
 python-multipart==0.0.32
 rsa==4.9.1
