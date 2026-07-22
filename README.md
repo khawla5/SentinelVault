@@ -1,5 +1,10 @@
 # SentinelVault 🔐
 
+[![tests](https://github.com/khawla5/SentinelVault/actions/workflows/tests.yml/badge.svg)](https://github.com/khawla5/SentinelVault/actions/workflows/tests.yml)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Security: AES-256-GCM](https://img.shields.io/badge/encryption-AES--256--GCM-1f6feb.svg)](#encryption-design)
+
 **An encrypted password manager with built-in malware & threat detection.**
 
 SentinelVault stores credentials using authenticated, military-grade encryption
